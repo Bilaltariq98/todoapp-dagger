@@ -16,7 +16,7 @@ dagger.#Plan & {
 					docker.#Dockerfile & {
 						source: dagger.#Scratch
 						dockerfile: contents: """
-							FROM alpine:3.15
+							FROM alpine:3.16
 
 							RUN echo -n hello world >> /test.txt
 						"""
